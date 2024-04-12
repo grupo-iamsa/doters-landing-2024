@@ -103,8 +103,8 @@
   transform: translateX(-15%);
 }
 
-/* ========================== banner 2 ========================== */
-.banner-2{
+/* ========================== banner green ========================== */
+.banner-green{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -112,26 +112,26 @@
   padding: 20px;
 }
 
-.banner-2__content-center{
+.banner-green__content-center{
   width: 60%;
   display: flex;
 }
 
-.banner-2__content{
+.banner-green__content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 70%;
 }
 
-.banner-2__content > h2{
+.banner-green__content > h2{
   font-size: 32px;
   width: 70%;
   text-wrap: balance;
   color: white;
 }
 
-.banner-2__content > p{
+.banner-green__content > p{
   width: 75%;
   color: rgb(255, 255, 255, .7);
   margin-top: 20px;
@@ -139,18 +139,18 @@
   text-wrap: pretty;
 }
 
-.banner-2__img{
+.banner-green__img{
   width: 30%;
   display: flex;
   justify-content: center;
 }
-.banner-2__img > img{
+.banner-green__img > img{
   width: 100%;
   object-fit: contain;
 }
 
-/* ========================== banner 3 ========================== */
-.banner-3{
+/* ========================== banner skyblue ========================== */
+.banner-skyblue{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -158,19 +158,19 @@
   padding: 20px;
 }
 
-.banner-3__content-center{
+.banner-skyblue__content-center{
   width: 80%;
   display: flex;
 }
 
-.banner-3__content{
+.banner-skyblue__content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 70%;
 }
 
-.banner-3__content > h2{
+.banner-skyblue__content > h2{
   font-size: 32px;
   width: 80%;
   text-wrap: balance;
@@ -178,19 +178,65 @@
   font-weight: bolder;
 }
 
-.banner-3__content > p{
+.banner-skyblue__content > p{
   width: 75%;
   margin-top: 20px;
   font-size: 24px;
   text-wrap: pretty;
 }
 
-.banner-3__img{
+.banner-skyblue__img{
   width: 30%;
   display: flex;
   justify-content: center;
 }
-.banner-3__img > img{
+.banner-skyblue__img > img{
+  width: 100%;
+  object-fit: contain;
+}
+
+/* ========================== banner 4 ========================== */
+.banner-green{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--d-green);
+  padding: 20px;
+}
+
+.banner-green__content-center{
+  width: 60%;
+  display: flex;
+}
+
+.banner-green__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+
+.banner-green__content > h2{
+  font-size: 32px;
+  width: 70%;
+  text-wrap: balance;
+  color: white;
+}
+
+.banner-green__content > p{
+  width: 75%;
+  color: rgb(255, 255, 255, .7);
+  margin-top: 20px;
+  font-size: 24px;
+  text-wrap: pretty;
+}
+
+.banner-green__img{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.banner-green__img > img{
   width: 100%;
   object-fit: contain;
 }
@@ -216,9 +262,9 @@
     color: white;
   }
 
-  /* =========== banner 2 Responsive =========== */
+  /* =========== banner green Responsive =========== */
 
-  .banner-2__content-center{
+  .banner-green__content-center{
     width: 80%;
   }
 }
@@ -244,18 +290,18 @@
     width: 50%;
   }
 
-  /* =========== banner 2 Responsive =========== */
-  .banner-2__content > h2{
+  /* =========== banner green Responsive =========== */
+  .banner-green__content > h2{
     font-size: 24px;
   }
-  .banner-2__content > p{
+  .banner-green__content > p{
     font-size: 18px;
   }
-  /* =========== banner 3 Responsive =========== */
-  .banner-3__content > h2{
+  /* =========== banner skyblue Responsive =========== */
+  .banner-skyblue__content > h2{
     font-size: 24px;
   }
-  .banner-3__content > p{
+  .banner-skyblue__content > p{
     font-size: 18px;
   }
 
@@ -285,58 +331,58 @@
     width: 70%;
   }
 
-  /* =========== banner 2 Responsive =========== */
+  /* =========== banner green Responsive =========== */
 
-  .banner-2__content-center{
+  .banner-green__content-center{
     flex-direction: column;
     width: 100%;
   }
-  .banner-2__img{
+  .banner-green__img{
     width: 100%;
   }
 
-  .banner-2__img img{
+  .banner-green__img img{
     width: 70%;
   }
-  .banner-2__content{
+  .banner-green__content{
     width: 100%;
     order: 2;
   }
 
-  .banner-2__content > h2{
+  .banner-green__content > h2{
     width: 100%;
     text-align: center;
     margin-top: 20px;
   }
-  .banner-2__content > p{
+  .banner-green__content > p{
     width: 100%;
     text-align: center;
   }
 
-  /* =========== banner 3 Responsive =========== */
+  /* =========== banner skyblue Responsive =========== */
 
-  .banner-3__content-center{
+  .banner-skyblue__content-center{
     flex-direction: column;
     width: 100%;
   }
-  .banner-3__img{
+  .banner-skyblue__img{
     width: 100%;
   }
 
-  .banner-3__img img{
+  .banner-skyblue__img img{
     width: 70%;
   }
-  .banner-3__content{
+  .banner-skyblue__content{
     width: 100%;
     order: 2;
   }
 
-  .banner-3__content > h2{
+  .banner-skyblue__content > h2{
     width: 100%;
     text-align: center;
     margin-top: 20px;
   }
-  .banner-3__content > p{
+  .banner-skyblue__content > p{
     width: 100%;
     text-align: center;
   }
