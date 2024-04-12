@@ -1,0 +1,1095 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: montserrat;
+}
+
+.body {
+  text-align: -webkit-center;
+}
+.carrousel {
+  width: 100%;
+}
+
+.conteCarrousel {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.itemCarrousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.itemCarrouselTarjeta {
+  width: 100%;
+  height: 100%;
+}
+.itemCarrouselTarjeta img {
+  width: 100%;
+}
+.itemCarrouselArrows {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 20px; */
+}
+
+.itemCarrouselArrows > i:hover {
+  cursor: pointer;
+  transition: 5s;
+}
+
+#itemCarrousel-1 {
+  background-color: #ffffff;
+}
+
+.conteCarrouselController {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.conteCarrouselController > a {
+  text-decoration: none;
+  font-size: 5em;
+  color: grey;
+  margin-right: 50px;
+}
+
+.itemCarrouselArrows > a > i {
+  color: #002656;
+}
+
+.doters-etn img {
+  width: 40%;
+  margin-right: 80%;
+}
+
+.unete-gratis {
+  font-size: 30px;
+  font-weight: bold;
+  color: #002656;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 50px;
+  margin-top: -260px;
+}
+
+.aventura img {
+  width: 50%;
+  margin-left: 55%;
+  margin-top: -250px;
+}
+
+.puntos {
+  font-size: 50px;
+  font-weight: 500;
+  color: #002656;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 60%;
+  margin-top: -300px;
+}
+.btn {
+  background-color: #002656;
+  box-shadow: 0px 12px 10px #b0aeae;
+  width: 250px;
+  height: 55px;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-left: 30px;
+  margin-top: -90px;
+  text-align: center;
+  margin-left: 45%;
+}
+
+.boleto-recompensa {
+  width: 100%;
+  background-color: #004951;
+  color: #fff;
+  font-size: 30px;
+  font-family: montserrat;
+  text-align: justify;
+  padding: 70px;
+}
+
+.no-esperes .viaja {
+  padding: 40px;
+  color: #fff;
+  font-family: montserrat;
+  font-size: 30px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+}
+
+.boleto img {
+  max-width: 60%;
+  margin-left: 60%;
+  margin-top: -650px;
+}
+
+.mundo-doters {
+  background-color: #d8ebff;
+  width: 100%;
+}
+
+.mundo-doters img {
+  /*  max-width: 60%; */
+  width: 55%;
+  margin-left: 50px;
+  margin-top: -490px;
+}
+
+.informacion {
+  color: #123c5d;
+  font-weight: 700;
+  font-family: montserrat;
+  font-size: 30px;
+  text-align: justify;
+  padding: 70px;
+}
+
+.iniciar-sesion {
+  color: #000;
+  font-size: 30px;
+  font-family: montserrat;
+  text-align: justify;
+  margin-left: 60px;
+}
+
+.primer-paso {
+  color: #000;
+  font-family: montserrat;
+  font-size: 30px;
+  text-align: justify;
+  margin-left: 60px;
+}
+
+.mundo-doters img {
+  max-width: 60%;
+  margin-left: 60%;
+  position: relative;
+  top: -40px;
+}
+
+.doters-1 img {
+  width: 220px;
+  margin-top: -30px;
+}
+
+.doters-1 img {
+  width: 350px;
+  margin-right: -900px;
+  margin-top: -100px;
+}
+
+.doters-2 img {
+  width: 350px;
+  margin-left: 250px;
+}
+
+.doters-3 img {
+  width: 270px;
+  margin-left: 50px;
+  margin-bottom: 650px;
+  padding-top: 40px;
+  margin-right: -250px;
+}
+
+.iconos-doters img {
+  width: 30%;
+  margin-top: -220px;
+}
+
+.envios-economicos {
+  background-color: #004951;
+  color: #fff;
+  font-size: 50px;
+  font-family: montserrat;
+  text-align: justify;
+  padding: 50px;
+}
+
+.envios-economicos p {
+  color: #fff;
+  font-family: montserrat;
+  font-size: 30px;
+  text-align: justify;
+  margin-left: 60px;
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+.fidelidad {
+  /*   padding: 30px; */
+  color: #fff;
+  font-family: montserrat;
+  font-size: 40px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+}
+
+.paqueteria img {
+  width: 55%;
+  margin-left: 63%;
+  margin-top: -490px;
+}
+
+.beneficios img {
+  width: 40%;
+  margin-right: 60%;
+  margin-bottom: 23px;
+}
+
+.viaja-beneficios {
+  margin-top: -180px;
+  margin-left: 90px;
+}
+
+.viajar img {
+  width: 30%;
+  margin-left: 60%;
+  margin-top: -30%;
+}
+.usa-puntos {
+  text-align: left;
+}
+
+.texto-1 {
+  color: #002b33;
+  font-size: 50px;
+  font-weight: 600;
+  padding: 30px;
+  text-align: center;
+}
+
+.sapan1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.span2 {
+  color: #002b33;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.container-puntos {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  justify-content: center;
+  padding-right: 280px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* .container-puntos img {
+  width: 10%;
+  margin-right: 200px;
+} */
+
+.container-puntos p {
+  color: #002b33;
+  font-size: 30px;
+  font-family: montserrat;
+  font-weight: 700;
+}
+
+h1 {
+  color: #000;
+  font-family: montserrat;
+  font-size: 25px;
+  font-weight: 400;
+}
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  /* padding: 20px; */
+}
+
+.viaja-beneficios {
+  color: #002656;
+  font-family: montserrat;
+  font-size: 50px;
+}
+
+.listado {
+  /* padding-left: 560px; */
+  text-align: justify;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 10px;
+}
+
+/* @media screen and (max-width: 992px) {
+  .listado {
+    grid-template-columns: auto 40px;
+  }
+} */
+
+.listado img {
+  width: 50px;
+}
+
+.unete {
+  color: #002656;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 500;
+}
+.texto-1 {
+  color: #002b33;
+  margin-top: 20px;
+  line-height: 1.1;
+  /* line-height: 80px; */
+  font-family: "Montserrat", sans-serif;
+}
+@media screen and (min-width: 993px) {
+  .texto-1 {
+    margin-left: -20%;
+  }
+}
+
+.texto p {
+  color: #000;
+  margin: 30px;
+  margin-left: -20%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.compra p {
+  text-align: justify;
+  margin-left: 25%;
+  font-family: "Montserrat", sans-serif;
+  color: #002b33;
+}
+.flecha img {
+  width: 20px;
+  margin-left: 780px;
+  position: relative;
+  top: -395px;
+}
+
+.pasos-img img {
+  width: 270px;
+  margin-left: 1120px;
+  position: relative;
+  top: -450px;
+}
+
+.listado-2 p {
+  color: #002b33;
+  font-weight: 600;
+  margin-left: 280px;
+  line-height: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  position: relative;
+  top: -310px;
+  margin-left: -40%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.texto-2 p {
+  color: #000;
+  margin-left: 280px;
+  font-size: 40px;
+  position: relative;
+  top: -300px;
+  margin: 30px;
+  margin-left: -30%;
+}
+
+.consigue p {
+  text-align: justify;
+  margin-left: 25%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.flecha-2 img {
+  width: 120px;
+  margin-left: 780px;
+  position: relative;
+  top: -650px;
+}
+
+.pasos-2-img img {
+  width: 270px;
+  margin-left: 1120px;
+  position: relative;
+  top: -720px;
+}
+
+.listado-3 p {
+  color: #002b33;
+  font-weight: 600;
+  margin-left: 280px;
+  line-height: 50px;
+  font-size: 50px;
+  font-weight: 700;
+  position: relative;
+  top: -610px;
+  margin-left: -25%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.texto-3 p {
+  color: #000;
+  margin-left: 280px;
+  font-size: 40px;
+  position: relative;
+  top: -580px;
+  margin-left: -30%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.usa {
+  width: 100%;
+
+  text-align: justify;
+  margin-left: 42%;
+}
+
+.flecha-3 img {
+  width: 120px;
+  margin-left: 780px;
+  position: relative;
+  top: -890px;
+}
+
+.pasos-3-img img {
+  width: 270px;
+  margin-left: 1120px;
+  position: relative;
+  top: -960px;
+}
+
+.niveles {
+  background-color: #003b59;
+  width: 100%;
+}
+
+.puntos-etn {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.grid-container {
+  width: 100%;
+  background-color: #003b59;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-gap: 50px;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .grid-container {
+    grid-gap: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr;
+  }
+}
+.check {
+  /* width: 50%; */
+  margin-right: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.texto img {
+  width: 150px;
+  padding: 10px;
+  justify-content: left;
+}
+
+.tarjeta {
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid #fcfffd;
+  text-align: center;
+  border-radius: 20px;
+  min-height: 480px;
+}
+
+.tarjeta-container {
+  max-width: 350px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.tarjeta h3 {
+  margin: 0;
+}
+
+.tarjeta p {
+  margin: 0;
+  font-size: 10px;
+  text-align: justify;
+}
+
+.nivel-verde {
+  background-color: #00fdb1;
+  height: 50px;
+  border-radius: 20px 20px 0px 0px;
+  color: #003b59;
+  font-size: 20px;
+  font-family: montserrat;
+  font-weight: 600;
+  padding: 10px;
+  text-align: left;
+}
+
+.doters img {
+  width: 20%;
+  padding: 10px;
+}
+
+.titulos {
+  color: #002656;
+  font-weight: 800;
+  font-family: montserrat;
+  font-size: 30px;
+}
+
+.texto {
+  color: #002656;
+  font-size: 20px;
+  font-family: montserrat;
+  font-weight: 600;
+  text-align: left;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  /* white-space: nowrap; */
+}
+
+.texto img {
+  width: 30%;
+}
+
+.titulos {
+  font-size: 5px;
+  text-align: left;
+  padding: 10px;
+}
+
+.nivel-plateado {
+  background-color: #343a40;
+  height: 50px;
+  border-radius: 20px 20px 0px 0px;
+  color: #ffffff;
+  text-align: left;
+  font-size: 20px;
+  font-family: montserrat;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.nivel-oro {
+  background-color: #343a40;
+  height: 50px;
+  border-radius: 20px 20px 0px 0px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: montserrat;
+  font-weight: 600;
+  padding: 10px;
+  text-align: left;
+}
+
+.puntos-beneficios {
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.banner-4 img {
+  width: 100%;
+}
+
+.banner-beneficios img {
+  width: 100%;
+}
+.container-cards {
+  margin-top: 50px;
+  /* padding: 50px; */
+  width: 80%;
+  /* height: 950px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards-1 {
+  width: 100%;
+  /* height: 450px; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows: 1fr;
+  align-self: center;
+  padding: 20px;
+  align-items: center;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cards-2 {
+  width: 100%;
+  /* height: 450px; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows: 1fr;
+  align-self: center;
+  padding: 20px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.object-1 {
+  width: 90%;
+  margin: 5px;
+  padding: 10px;
+  height: 400px;
+  border: 1px solid #d1c4c4;
+  display: grid;
+  grid-template-rows: 1fr 15% 20%;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.object-1 img {
+  width: 250px;
+}
+
+.text-objects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.text-objects p {
+  color: #002b33;
+  font-size: 20px;
+  text-align: center;
+}
+.parrafo-objects {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-size: 16px;
+  padding: 0px 20px;
+}
+
+.parrafo-objects p {
+  font-size: 15px;
+}
+
+.object-2 {
+  width: 90%;
+  margin: 5px;
+  padding: 10px;
+  height: 400px;
+  border: 1px solid #d1c4c4;
+  display: grid;
+  grid-template-rows: 1fr 15% 20%;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.object-2 img {
+  width: 250px;
+}
+
+.banner-5 img {
+  width: 100%;
+}
+
+.banner-6 img {
+  width: 100%;
+}
+
+.footer img {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer-image {
+  width: 100%;
+}
+
+.menu-footer {
+  background-color: #eeeeee;
+  color: #003b59;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.menu-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.preguntas,
+.iconos {
+  display: flex;
+}
+
+.preguntas p {
+  margin-right: 20px;
+}
+
+.iconos img {
+  width: 150px;
+  margin-right: 10px;
+  justify-content: center;
+}
+.menu-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.preguntas p {
+  display: inline;
+  margin-right: 10px;
+}
+
+.iconos img {
+  display: inline;
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .boleto-recompensa {
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .viaja {
+    font-size: 25px;
+    padding: 20px;
+  }
+
+  .boleto img {
+    display: flex;
+    max-width: 90%;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  .informacion {
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .iniciar-sesion,
+  .primer-paso {
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .mundo-doters img {
+    display: flex;
+    max-width: 90%;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .envios-economicos p {
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .fidelidad {
+    font-size: 30px;
+  }
+
+  .paqueteria img {
+    display: flex;
+    display: flex;
+    max-width: 90%;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  .texto-1 {
+    font-size: 60px;
+    padding: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .sapan1 {
+    text-align: justify;
+  }
+
+  .span2 {
+    font-size: 20px;
+    padding-left: -50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container-puntos {
+    grid-template-columns: auto;
+    padding: 10px;
+  }
+
+  .container-puntos p {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 14px;
+  }
+
+  .grid-item {
+    padding: 5px;
+  }
+
+  .grid-item img {
+    width: 100px;
+    padding: 5px;
+  }
+
+  .listado {
+    padding-left: 60px;
+    max-width: 60vw;
+  }
+
+  .listado img {
+    width: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 10px;
+  }
+
+  .card-header {
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-content {
+    font-size: 14px;
+  }
+
+  .card-icon {
+    width: 60px;
+  }
+
+  .benefits-list {
+    padding-left: 10px;
+  }
+
+  .puntos-etn {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .nivel-verde {
+    font-size: 14px;
+    height: auto;
+    border-radius: 20px;
+    padding: 5px;
+  }
+
+  .doters img {
+    width: 80px;
+    padding: 5px;
+  }
+
+  .titulos {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .texto {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .texto img {
+    width: 50%;
+  }
+
+  .grid-container {
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+  }
+
+  .tarjeta {
+    padding: 10px;
+  }
+
+  .nivel-verde,
+  .nivel-plateado,
+  .nivel-oro {
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+  .doters img {
+    width: 40%;
+    padding: 5px;
+  }
+
+  .titulos {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .check img {
+    width: 50px;
+  }
+
+  .texto p {
+    margin-bottom: 5px;
+  }
+
+  .puntos-beneficios {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .banner-beneficios {
+    width: 100%;
+  }
+
+  .banner-beneficios img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .object-1 {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .text-objects {
+    font-size: 14px;
+  }
+
+  .parrafo-objects {
+    font-size: 12px;
+    padding: 0px 10px;
+  }
+
+  .parrafo-objects p {
+    font-size: 14px;
+  }
+  .grid-container {
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-cards {
+    padding: 20px;
+    height: auto;
+    /* padding-left: 150px; */
+  }
+
+  .cards-1,
+  .cards-2 {
+    grid-template-columns: 100%;
+    height: auto;
+  }
+
+  .object-1,
+  .object-2 {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    height: auto;
+  }
+
+  .object-1 img,
+  .object-2 img {
+    width: 50%;
+    max-width: 250px;
+    height: auto;
+    text-align: center;
+  }
+
+  .text-objects {
+    font-size: 16px;
+  }
+
+  .parrafo-objects {
+    font-size: 10px;
+    padding: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .banner-5 img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .object-1 {
+    height: 460px;
+  }
+  .object-2 {
+    height: 460px;
+  }
+}
