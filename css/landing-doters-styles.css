@@ -100,6 +100,58 @@
   transform: translateX(-15%);
 }
 
+/* ========================== banner 2 ========================== */
+.banner-2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--d-green);
+  padding: 20px;
+}
+
+.banner-2__content-center{
+  width: 60%;
+  display: flex;
+}
+
+.banner-2__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+
+.banner-2__content > h2{
+  font-size: 32px;
+  width: 70%;
+  text-wrap: balance;
+  color: white;
+  font-family: doters-bold;
+}
+
+.banner-2__content > p{
+  width: 75%;
+  color: rgb(255, 255, 255, .7);
+  margin-top: 20px;
+  font-size: 24px;
+  text-wrap: pretty;
+}
+
+.banner-2__img{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.banner-2__img > img{
+  width: 100%;
+  object-fit: contain;
+}
+
+
+
+
+/* ========================== Responsive 📱 ========================== */
+
 @media screen and (max-width:1024px) {
   .__content-row-1 > p{
     font-size: 36px;
@@ -114,6 +166,12 @@
     border-radius: 55px;
     padding: 10px 20px;
     color: white;
+  }
+
+  /* =========== banner 2 Responsive =========== */
+
+  .banner-2__content-center{
+    width: 80%;
   }
 }
 
@@ -137,14 +195,27 @@
     transform: none;
     width: 50%;
   }
+
+  /* =========== banner 2 Responsive =========== */
+  .banner-2__content > h2{
+    font-size: 24px;
+  }
+  .banner-2__content > p{
+    font-size: 18px;
+  }
+
 }
 
 @media screen and (max-width:540px){
+  .banner-1 {
+    padding: 10px;
+  }
   .__content-row-1 > p{
     font-size: 22px;
   }
   .__content-row-2 > p{
-    font-size: 20px;
+    width: 42%;
+    font-size: 18px;
   }
   .__content-row-2 > div{
     gap: 10px;
@@ -152,5 +223,38 @@
   .__content-row-2 > div > span{
     font-size: 14px;
     padding: 5px 10px;
+  }
+
+  .banner-1__image img{
+    transform: none;
+    width: 70%;
+  }
+
+  /* =========== banner 2 Responsive =========== */
+
+  .banner-2__content-center{
+    flex-direction: column;
+    width: 100%;
+  }
+  .banner-2__img{
+    width: 100%;
+  }
+
+  .banner-2__img img{
+    width: 70%;
+  }
+  .banner-2__content{
+    width: 100%;
+    order: 2;
+  }
+
+  .banner-2__content > h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .banner-2__content > p{
+    width: 100%;
+    text-align: center;
   }
 }
