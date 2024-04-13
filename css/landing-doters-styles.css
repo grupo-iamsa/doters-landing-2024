@@ -36,6 +36,7 @@
 
 .banner-1__content{
   width: 70%;
+  display: grid;
 }
 
 .__content-row-1{
@@ -50,7 +51,7 @@
 
 .__content-row-1 > p{
   width: 60%;
-  font-size: 60px;
+  font-size: 80px;
   text-align: center;
   text-wrap: balance;
   font-weight: bolder;
@@ -66,7 +67,7 @@
 }
 
 .__content-row-2 > p{
-  font-size: 46px;
+  font-size: 60px;
   color: var(--etn-blue);
   text-align: center;
   width: 39%;
@@ -399,7 +400,7 @@
 
 .banner-2__content.__content-row-1 > p{
   width: 60%;
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
   font-weight: bolder;
   color: var(--etn-blue);
@@ -415,7 +416,7 @@
 .banner-2__content.__content-row-2 > p{
   display: flex;
   align-items: center;
-  font-size: 40px;
+  font-size: 60px;
   color: var(--etn-blue);
   text-align: center;
   width: 65%;
@@ -493,7 +494,7 @@
 
 /* ========================== Responsive 📱 ========================== */
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1280px) {
   .__content-row-1 > p{
     font-size: 36px;
   }
@@ -513,6 +514,15 @@
 
   .banner-green__content-center{
     width: 80%;
+  }
+
+  /* =========== banner 2 Responsive =========== */
+
+  .banner-2__content.__content-row-1 > p{
+    font-size: 55px;
+  }
+  .banner-2__content.__content-row-2 > p{
+    font-size: 40px;
   }
 
 }
