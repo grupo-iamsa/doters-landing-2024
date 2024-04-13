@@ -11,8 +11,10 @@
 
 :root{
   --d-green: #004951;
+  --d-green-ligth: #2affac;
   --d-green-dark: #01262b;
   --etn-blue: #002674;
+  --etn-blue-dark: #01365E;;
 }
 
 *{
@@ -267,6 +269,113 @@
   width: 100%;
 }
 
+/* ========================== Plans ========================== */
+.plans{
+  width: 100%;
+  background-color: var(--etn-blue-dark);
+}
+
+.plans > header {
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+} 
+
+.plans > header > h2{
+  font-size: 32px;
+}
+
+.plans > header > p{
+  font-size: 22px;
+}
+
+.plans__cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+.plans__cards-container.__card-container {
+  padding: 0;
+  display: block;
+}
+
+.__card-container.__card{
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid white;
+  height: 90%;
+}
+
+.__card-container.__card.__card-green > header{
+  background-color: var(--d-green-ligth);
+  padding: 10px;
+  
+}
+
+.__card-container.__card > header{
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+.__card-container.__card > .__card-img {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.__card-container.__card > .__card-img > img {
+  width: 40%;
+}
+
+.__card-container.__card > ul{
+  padding: 15px;
+  list-style: none;
+  color: var(--etn-blue-dark);
+  font-weight: 600;
+}
+
+.__card-container.__card > ul > h4{
+  font-size: 28px;
+  
+}
+.__card-container.__card > ul > li{
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  position: relative;
+}
+.__card-container.__card > ul > li::before{
+  content: "";
+  background-image: url("/img/elemets/check.webp");
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-size: contain;
+  left: -35px;
+  
+}
+
+.plans__cards-container.__card-container > footer{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  text-wrap: pretty;
+}
+
+
+
+
+
+
+
 
 /* ========================== Responsive 📱 ========================== */
 
@@ -336,6 +445,13 @@
   .__step-content > p{
     width: 80%;
   }
+
+  /* =========== banner instructions Responsive =========== */
+  .plans__cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+  }
+
 }
 
 @media screen and (max-width:540px){
@@ -446,4 +562,27 @@
   .__step .__step-img {
     width: 100%;
   }
+
+  /* =========== banner instructions Responsive =========== */
+  .plans__cards-container{
+    padding: 15px;
+  }
+
+  .plans__cards-container {
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+
+  .__card-container.__card > ul > h4{
+    font-size: 22px;
+    
+  }
+  .__card-container.__card > ul > li{
+    font-size: 16px;
+  }
+
+  .plans__cards-container.__card-container {
+    margin-top: 30px;
+  }
+
 }
