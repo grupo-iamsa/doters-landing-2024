@@ -419,6 +419,12 @@
   }
 
   /* =========== banner instructions Responsive =========== */
+  .instructions-center > h2 {
+    font-size: 36px;
+  }
+  .instructions-center > h2 >span {
+    font-size: 24px;
+  }
   .__step{
     display: flex;
     flex-direction: column;
