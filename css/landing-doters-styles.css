@@ -34,6 +34,10 @@
   padding: 40px;
 }
 
+.banner-title{
+  display: none;
+}
+
 .banner-1__content{
   width: 70%;
   display: grid;
@@ -593,7 +597,7 @@
 
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:860px) {
   .banner-1{
     flex-direction: column;
     gap: 20px;
@@ -643,7 +647,7 @@
     grid-template-columns: 1fr 1fr ;
   }
 
-  /* =========== banner instructions Responsive =========== */
+  /* =========== banner 2 Responsive =========== */
 
 
   .banner-2{
@@ -664,6 +668,14 @@
   .banner-2__image img{
     transform: none;
     width: 50%;
+  }
+
+  .banner-2__content.__content-row-2 > div {
+    display: none;
+  }
+
+  .banner-2__content.__content-row-2 > p {
+    width: 80%;
   }
 
   .banner-2__content.__content-row-1 > .ligth{
@@ -696,18 +708,44 @@
   .banner-1 {
     padding: 10px;
   }
-  .__content-row-1 > p{
-    font-size: 22px;
+
+  .banner-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--etn-blue);
+    font-family: doters-bold;
+    font-weight: bolder;
+    font-size: 32px;
+    text-align: center;
   }
-  .__content-row-2 > p{
-    width: 42%;
-    font-size: 18px;
+
+  .banner-title img{
+    width: 80%;
   }
-  .__content-row-2 > div{
+  .__content-row-1 {
+    display: none;
+  }
+
+  .__content-row-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 10px;
   }
+  .__content-row-2 > p{
+    width: 100%;
+    font-size: 36px;
+  }
+  .__content-row-2 > div{
+    width: 100%;
+    gap: 20px;
+  }
+  .__content-row-2 > div > img{
+    width: 70%;
+  }
   .__content-row-2 > div > span{
-    font-size: 14px;
+    font-size:28px;
     padding: 5px 10px;
   }
 
@@ -801,7 +839,7 @@
     width: 100%;
   }
 
-  /* =========== banner instructions Responsive =========== */
+  /* =========== banner plans Responsive =========== */
   .plans__cards-container{
     padding: 15px;
   }
@@ -823,26 +861,22 @@
     margin-top: 30px;
   }
 
-  /* =========== banner instructions Responsive =========== */
+  /* =========== banner 2 Responsive =========== */
 
 
   .banner-2 {
     padding: 10px;
   }
-  .banner-2__content.__content-row-1 > p{
-    font-size: 22px;
+  .banner-2__content.__content-row-1 {
+    display: none;
   }
   .banner-2__content.__content-row-2 > p{
-    width: 70%;
-    font-size: 18px;
+    width: 100%;
+    font-size: 28px;
   }
-  .banner-2__content.__content-row-2 > div{
-    gap: 10px;
-    width: 30%;
-  }
-  .banner-2__content.__content-row-2 > div > span{
-    font-size: 14px;
-    padding: 5px 10px;
+
+  .banner-2__content.__content-row-2 > div {
+    display: none;
   }
 
 
@@ -850,13 +884,12 @@
     width: 70%;
   }
 
-  .banner-2__content.__content-row-1 > .ligth{
-    font-size: 20px;
-  } 
   
   .banner-2__content.__content-row-2 > .strong{
-    width: 90%;
-    font-size: 22px;
+    width: 100%;
+    font-size: 28px;
+    font-family: doters;
+    font-weight: normal;
   } 
 
   /* =========== banner instructions Responsive =========== */
