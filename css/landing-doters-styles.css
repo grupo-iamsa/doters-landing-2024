@@ -11,6 +11,7 @@
 
 :root{
   --d-green: #004951;
+  --d-green-dark: #01262b;
   --etn-blue: #002674;
 }
 
@@ -195,53 +196,76 @@
   object-fit: contain;
 }
 
-/* ========================== banner 4 ========================== */
-.banner-green{
+/* ========================== instructions ========================== */
+
+.instructions{
   width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: var(--d-green);
-  padding: 20px;
+  padding:40px 20px;
 }
 
-.banner-green__content-center{
+.instructions-center{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.instructions-center > h2 {
+  font-size: 70px;
+  text-wrap: balance;
+  color: var(--d-green-dark);
+}
+.instructions-center > h2 > span {
+  font-size: 40px;
+  text-wrap: balance;
+  font-weight: normal;
+}
+
+.instructions__steps{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.instructions__steps > .__step{
+  display: flex;
+  margin-top: 50px;
+}
+
+.__step > .__step-content{
+  margin-top: 40px;
+  width: 72%;
+}
+
+.__step-content > header {
   width: 60%;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
-.banner-green__content{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.__step-content > header > h3 {
   width: 70%;
-}
-
-.banner-green__content > h2{
   font-size: 32px;
-  width: 70%;
   text-wrap: balance;
-  color: white;
+}
+.__step-content > header > img {
+  width: 15%;
 }
 
-.banner-green__content > p{
-  width: 75%;
-  color: rgb(255, 255, 255, .7);
-  margin-top: 20px;
-  font-size: 24px;
+.__step-content > p {
+  width: 65%;
   text-wrap: pretty;
+  margin-top: 20px;
+  font-size: 22px;
 }
-
-.banner-green__img{
-  width: 30%;
+.__step > .__step-img{
   display: flex;
-  justify-content: center;
+  align-items: center;
+  width: 28%
+
 }
-.banner-green__img > img{
+
+.__step > .__step-img img{
   width: 100%;
-  object-fit: contain;
 }
-
-
 
 
 /* ========================== Responsive 📱 ========================== */
@@ -305,6 +329,13 @@
     font-size: 18px;
   }
 
+  /* =========== banner instructions Responsive =========== */
+  .__step-content > header{
+    width: 80%;
+  }
+  .__step-content > p{
+    width: 80%;
+  }
 }
 
 @media screen and (max-width:540px){
@@ -385,5 +416,28 @@
   .banner-skyblue__content > p{
     width: 100%;
     text-align: center;
+  }
+
+  /* =========== banner instructions Responsive =========== */
+  .__step{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .__step > .__step-content {
+    width: 100%;
+    order: 2;
+  }
+  .__step-content > header {
+    width: 100%;
+  }
+  .__step-content > header > h3{
+    width: 100%;
+  }
+  .__step-content > p{
+    width: 100%;
+  }
+  .__step .__step-img {
+    width: 100%;
   }
 }
