@@ -370,6 +370,81 @@
   text-wrap: pretty;
 }
 
+/* ========================== banner 2 ========================== */
+
+.banner-2 {
+  width: 100%;
+  display: flex;
+  padding: 20px;
+}
+
+.banner-2__content{
+  display: grid;
+  justify-content: center;
+  width: 70%;
+  align-items: center;
+}
+
+.banner-2__content.__content-row-1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner-2__content.__content-row-1 > img {
+  width: 40%;
+}
+
+.banner-2__content.__content-row-1 > p{
+  width: 60%;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
+  color: var(--etn-blue);
+  font-family: doters-bold;
+} 
+
+.banner-2__content.__content-row-2{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.banner-2__content.__content-row-2 > p{
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  color: var(--etn-blue);
+  text-align: center;
+  width: 65%;
+  font-family: doters;
+}
+
+.banner-2__content.__content-row-2 > div{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.banner-2__content.__content-row-2 > div > img{
+  width: 60%;
+}
+
+.banner-2__image{
+  width: 30%;
+  padding: 10px;
+
+}
+
+
+.banner-2__image img{
+  width: 100%;
+}
+
 
 
 
@@ -400,6 +475,7 @@
   .banner-green__content-center{
     width: 80%;
   }
+
 }
 
 @media screen and (max-width:850px) {
@@ -450,6 +526,29 @@
   .plans__cards-container {
     display: grid;
     grid-template-columns: 1fr 1fr ;
+  }
+
+  /* =========== banner instructions Responsive =========== */
+
+
+  .banner-2{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .banner-2__content {
+    width: 100%;
+    order: 2;
+  }
+
+  .banner-2__image{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .banner-2__image img{
+    transform: none;
+    width: 50%;
   }
 
 }
@@ -583,6 +682,33 @@
 
   .plans__cards-container.__card-container {
     margin-top: 30px;
+  }
+
+  /* =========== banner instructions Responsive =========== */
+
+
+  .banner-2 {
+    padding: 10px;
+  }
+  .banner-2__content.__content-row-1 > p{
+    font-size: 22px;
+  }
+  .banner-2__content.__content-row-2 > p{
+    width: 70%;
+    font-size: 18px;
+  }
+  .banner-2__content.__content-row-2 > div{
+    gap: 10px;
+    width: 30%;
+  }
+  .banner-2__content.__content-row-2 > div > span{
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+
+  .banner-2__image img{
+    width: 70%;
   }
 
 }
