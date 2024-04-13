@@ -506,6 +506,40 @@
   width: 80%;
 }
 
+/* ========================== Banner Buss ========================== */
+
+.doters-bus{
+  background-color: var(--d-green);
+  position: relative;
+  padding: 40px 80px;
+  color: white;
+  font-family: doters;
+}
+
+.doters-bus > img{
+  position: absolute;
+  width: 48%;
+  right: 20px;
+  top: 20px;
+}
+
+.doters-bus-content h2{
+  font-size: 60px;
+  font-family: doters-bold;
+}
+
+.doters-bus-content p{
+  font-size: 28px;
+}
+
+.doters-bus-img {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.doters-bus-img  img{
+  width: 18%;
+}
 
 
 
@@ -550,6 +584,12 @@
   .banner-2__content.__content-row-2 > .strong{
     font-size: 50px;
   } 
+
+  /* =========== banner bus Responsive =========== */
+
+  .doters-bus > img{
+    width: 40%;
+  }
 
 }
 
@@ -636,6 +676,19 @@
     font-size: 40px;
     margin-top: 20px;
   } 
+
+  /* ========================== Banner Buss ========================== */
+
+.doters-bus{
+  padding: 20px;
+  z-index: -2;
+}
+
+.doters-bus > img{
+  width: 70%;
+  z-index: -1;
+  opacity: .7;
+}
 
 }
 
@@ -810,6 +863,29 @@
 
   .benefits__cards-container{
     grid-template-columns: 1fr;
+  }
+
+  /* ========================== Banner Buss ========================== */
+
+  .doters-bus{
+    padding: 10px;
+
+  }
+
+  .doters-bus-content h2{
+    font-size: 38px;
+  }
+
+  .doters-bus-content p{
+    font-size: 22px;
+  }
+
+  .doters-bus-img {
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+  }
+  .doters-bus-img  img{
+    width: 30%;
   }
 
 }
