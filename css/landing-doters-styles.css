@@ -376,6 +376,7 @@
   width: 100%;
   display: flex;
   padding: 20px;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .banner-2__content{
@@ -445,8 +446,46 @@
   width: 100%;
 }
 
+/* ========================== instructions ========================== */
 
+.benefits{
+  width: 100%;
+  padding: 50px 20px;
+}
 
+.benefits__cards-container{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.benefits__cards-container.__card {
+  padding: 10px;
+  display: block;
+  border: 1px solid #f2f2f2;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, .2);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.benefits__cards-container.__card > .__card-img{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.benefits__cards-container.__card > .__card-content{
+  text-align: center;
+  color: var(--d-green);
+}
+
+.benefits__cards-container.__card > .__card-img > img{
+  width: 80%;
+}
 
 
 
@@ -709,6 +748,12 @@
 
   .banner-2__image img{
     width: 70%;
+  }
+
+  /* =========== banner instructions Responsive =========== */
+
+  .benefits__cards-container{
+    grid-template-columns: 1fr;
   }
 
 }
