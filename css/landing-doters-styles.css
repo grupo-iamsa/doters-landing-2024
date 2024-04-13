@@ -378,6 +378,7 @@
   display: flex;
   padding: 20px;
   border-bottom: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
 }
 
 .banner-2__content{
@@ -405,6 +406,23 @@
   font-weight: bolder;
   color: var(--etn-blue);
   font-family: doters-bold;
+} 
+.banner-2__content.__content-row-1 > .ligth{
+  width: 60%;
+  font-size: 90px;
+  text-align: center;
+  color: var(--etn-blue);
+  font-family: doters;
+  font-weight: normal;
+} 
+
+.banner-2__content.__content-row-2 > .strong{
+  width: 100%;
+  font-size: 70px;
+  text-align: center;
+  color: var(--etn-blue);
+  font-family: doters-bold;
+  font-weight: bolder;
 } 
 
 .banner-2__content.__content-row-2{
@@ -525,6 +543,14 @@
     font-size: 40px;
   }
 
+  .banner-2__content.__content-row-1 > .ligth{
+    font-size: 70px;
+  } 
+  
+  .banner-2__content.__content-row-2 > .strong{
+    font-size: 50px;
+  } 
+
 }
 
 @media screen and (max-width:850px) {
@@ -599,6 +625,17 @@
     transform: none;
     width: 50%;
   }
+
+  .banner-2__content.__content-row-1 > .ligth{
+    width: 60%;
+    font-size: 50px;
+  } 
+  
+  .banner-2__content.__content-row-2 > .strong{
+    width: 80%;
+    font-size: 40px;
+    margin-top: 20px;
+  } 
 
 }
 
@@ -759,6 +796,15 @@
   .banner-2__image img{
     width: 70%;
   }
+
+  .banner-2__content.__content-row-1 > .ligth{
+    font-size: 20px;
+  } 
+  
+  .banner-2__content.__content-row-2 > .strong{
+    width: 90%;
+    font-size: 22px;
+  } 
 
   /* =========== banner instructions Responsive =========== */
 
